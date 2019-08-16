@@ -1,0 +1,30 @@
+#Options{
+    z-index: 10;
+    position: fixed;
+    width: 60%;
+    top: 0;
+    transition: 0.5s;
+    border: blue 1px solid;
+
+}
+#Options.Burger{
+    top: 3em;
+}
+#Options > h4 {
+    text-align: center;
+    margin: 0;
+    border-top: blue 1px solid;
+}
+#Options > select {
+    width: 90%;
+    margin-left: 5%;
+    border: blue 1px solid;
+    margin-bottom: 0.2em;
+    
+}
+#Options.Hidden{
+    right: -60%
+}
+#Options.Active{
+    right: 0
+}

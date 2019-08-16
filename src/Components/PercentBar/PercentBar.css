@@ -1,0 +1,29 @@
+#ProgressShell{
+    box-sizing: content-box;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    height: 1.5em;
+    border: 2px outset black;
+    background:#0000ff;
+    border-radius: 10px;
+}
+#ProgressShell > div{
+    box-sizing: content-box;
+    position: absolute;
+    left: 0;
+    background:  #ff0000;
+    top: 0;
+    height: 1.5em;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+#ProgressShell > p {
+    position: absolute;
+    width: 100%;
+    height: 1.5em;
+    line-height: 1.5;
+    background: transparent;
+    text-align: center;
+}

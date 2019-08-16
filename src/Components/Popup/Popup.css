@@ -1,0 +1,35 @@
+#Popup{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 15%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    z-index: 20;
+}
+#Popup > h2 {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.BarButton {
+    float: right;
+    font-size: 1em;
+    padding-right: 0.4em;
+    font-weight: bold;
+    background: inherit;
+    color: inherit;
+    border: none
+}
+
+#Popup > .Confirm {
+    float: right;
+    margin: .5em;
+    border: 1px outset black;
+    padding: .2em;
+    border-radius: .5em;
+}

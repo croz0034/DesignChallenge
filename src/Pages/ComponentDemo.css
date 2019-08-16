@@ -1,0 +1,49 @@
+.RadarShell{
+    height: 40vw;
+    width: 100%;
+}
+.RadarChart{
+    width: 40vw;
+    height: 40vw;
+    float: left;
+    margin-left: 10%;
+}
+.PlayerKey {
+    width: 45vw;
+     height: 50vw;
+      float: Right
+    }
+.RadarShell > p {
+    display: inline-block;
+    margin: 1em;
+}
+.RadarShell > .Sample {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+.RadarContainer{
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+    border-top: 1px solid blue;
+    bottom: 0;
+    }
+.Demo > .p1Select, .Demo > .p2Select {
+    position: relative;
+    display: inline-block;
+    padding-left: 1em;
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.BottomBanner {
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+}
+.Demo > h4 {
+    text-align: center;
+}

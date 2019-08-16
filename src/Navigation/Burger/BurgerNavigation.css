@@ -1,0 +1,52 @@
+.TopBanner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3em;
+    z-index: 10;
+  }
+.Spacer{
+    height: 3em;
+    display: block;
+}
+#BurgerTitle{
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      font-size: 2em;
+      margin-top: 0.2em;
+  }
+
+img{
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+    position: fixed;
+}
+.BurgerButton{
+    left: 0;
+}
+.OptionsButton{
+    right: 0;
+}
+
+nav.Burger{
+    position: fixed;
+    width: 60%;
+    top: 3em;
+    transition: 0.5s;
+    border: blue 1px solid;
+    z-index: 10;
+
+}
+nav.Burger > p, #Options > p{
+    margin: 0;
+    border-bottom: blue 1px solid;
+}
+nav.Burger.Hidden{
+    left: -60%;
+}
+nav.Burger.Active{
+    left: 0;
+}
