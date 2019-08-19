@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DesignChallenge/static/css/main.7295ce61.chunk.css",
-    "main.js": "/DesignChallenge/static/js/main.9f27a6a5.chunk.js",
-    "main.js.map": "/DesignChallenge/static/js/main.9f27a6a5.chunk.js.map",
+    "main.css": "/DesignChallenge/static/css/main.96876e2a.chunk.css",
+    "main.js": "/DesignChallenge/static/js/main.66e3c7f9.chunk.js",
+    "main.js.map": "/DesignChallenge/static/js/main.66e3c7f9.chunk.js.map",
     "runtime~main.js": "/DesignChallenge/static/js/runtime~main.c095d5b5.js",
     "runtime~main.js.map": "/DesignChallenge/static/js/runtime~main.c095d5b5.js.map",
     "static/js/2.d6a534e5.chunk.js": "/DesignChallenge/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/DesignChallenge/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/DesignChallenge/index.html",
-    "precache-manifest.f14d235640e18077797ed173dd2b05d2.js": "/DesignChallenge/precache-manifest.f14d235640e18077797ed173dd2b05d2.js",
+    "precache-manifest.57351474fa298261c5abc0b1e76458c5.js": "/DesignChallenge/precache-manifest.57351474fa298261c5abc0b1e76458c5.js",
     "service-worker.js": "/DesignChallenge/service-worker.js",
-    "static/css/main.7295ce61.chunk.css.map": "/DesignChallenge/static/css/main.7295ce61.chunk.css.map",
+    "static/css/main.96876e2a.chunk.css.map": "/DesignChallenge/static/css/main.96876e2a.chunk.css.map",
     "static/media/BurgerBar.svg": "/DesignChallenge/static/media/BurgerBar.9ba3d853.svg",
     "static/media/Options.svg": "/DesignChallenge/static/media/Options.89266e87.svg"
   }
