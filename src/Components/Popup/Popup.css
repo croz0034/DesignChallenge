@@ -8,6 +8,7 @@
     overflow: hidden;
     background: white;
     z-index: 20;
+    touch-action: none;
 }
 #Popup > h2 {
     border-top-left-radius: 9px;

@@ -32,6 +32,7 @@ class Popup extends React.Component {
     }
 
     DragStart(ev){
+        ev.preventDefault()
         if(this.props.Options.Draggable && ev.target.classList != "BarButton"){
             let State = this.state;
             State.StartLocation = translatePosition(ev);
@@ -39,6 +40,7 @@ class Popup extends React.Component {
             this.setState(State)
     }}
     Drag(ev){
+        ev.preventDefault()
         if(this.state.Moving){
         let State = this.state;
         if(translatePosition(ev).x){
@@ -63,6 +65,7 @@ class Popup extends React.Component {
         }
     }
     Drop(ev){
+        ev.preventDefault()
         let State = this.state;
         State.Moving = false
         this.setState(State)
